@@ -15,18 +15,19 @@ Objectives
 
 Database: sql_p1
 Table: retail_sales
-Column Name	        Data Type	    Description
-transactions_id	     INT	        Unique transaction identifier
-sale_date            DATE	        Date of the sale
-sale_time	           TIME	        Time of the sale
-customer_id	         INT	        Unique customer identifier
-gender	          VARCHAR(10)	    Gender of the customer
-age	                 INT	        Customer’s age
-category	        VARCHAR(15)	    Product category
-quantity	           INT	        Quantity of items sold
-price_per_unit	    FLOAT	        Price per item
-cogs	              FLOAT	        Cost of goods sold
-total_sale	        FLOAT	         Total sale amount
+
+    Column Name	        Data Type	    Description  \n
+1.  transactions_id	     INT	        Unique transaction identifier
+2.  sale_date            DATE	        Date of the sale
+3.  sale_time	           TIME	        Time of the sale
+4.  customer_id	         INT	        Unique customer identifier
+5.  gender	          VARCHAR(10)	    Gender of the customer
+6.  age	                 INT	        Customer’s age
+7.  category	        VARCHAR(15)	    Product category
+8.  quantity	           INT	        Quantity of items sold
+9.  price_per_unit	    FLOAT	        Price per item
+10. cogs	              FLOAT	        Cost of goods sold
+11. total_sale	        FLOAT	         Total sale amount
 
 **Steps Performed**
 
