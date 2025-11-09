@@ -16,7 +16,7 @@ Objectives
 Database: sql_p1
 Table: retail_sales
 
-    Column Name	        Data Type	    Description  \n
+    Column Name	        Data Type	    Description 
 1.  transactions_id	     INT	        Unique transaction identifier
 2.  sale_date            DATE	        Date of the sale
 3.  sale_time	           TIME	        Time of the sale
