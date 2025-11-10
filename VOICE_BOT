@@ -1,0 +1,70 @@
+ Voice-Activated AI Chatbot using Streamlit
+Overview
+This project is a Voice-Enabled AI Chatbot built with Python and Streamlit. It uses speech recognition to listen to voice commands, text-to-speech to respond, and performs real-time tasks like fetching information from Wikipedia, opening websites, managing notes, and greeting the user contextually. The app can be controlled by both voice and text input.
+Features
+• Voice Recognition — Understands spoken commands via the microphone.
+• Text-to-Speech Response — Responds back using realistic voice.
+• Wikipedia Integration — Fetches and reads summaries for queries.
+• Smart Greetings — Greets the user based on the time of day.
+• Note-Taking — Save and display notes interactively.
+• Web Automation — Opens websites like YouTube, Google, or GitHub by command.
+• Dual Interaction — Accepts both voice and typed commands.
+• Exit Control — Stops listening until the user resumes manually.
+Project Structure
+📁 Voice_Chatbot/
+├── app.py                # Main Streamlit application file
+├── notes.txt             # Saved notes file (auto-generated)
+├── requirements.txt      # Dependencies
+└── README.md             # Project documentation
+Installation
+1️⃣ Clone this repository:
+git clone https://github.com/<your-username>/voice-chatbot.git
+cd voice-chatbot
+2️⃣ Create a virtual environment (optional but recommended):
+python -m venv venv
+source venv/bin/activate   # for Mac/Linux
+venv\Scripts\activate      # for Windows
+3️⃣ Install dependencies:
+pip install -r requirements.txt
+If you don’t have a requirements.txt yet, create one with:
+streamlit
+speechrecognition
+pyttsx3
+wikipedia
+pyaudio
+Run the App
+Start the chatbot locally using:
+streamlit run app.py
+The app will open automatically in your browser at http://localhost:8501
+How It Works
+1. Speech Recognition — Listens to your voice using the microphone.
+2. Command Processing — Interprets and cleans your spoken or typed command.
+3. Response Logic — Fetches data, opens websites, or saves notes.
+4. Text-to-Speech — Speaks the response using pyttsx3.
+5. Persistent Notes — All saved notes are stored in notes.txt and visible in the sidebar.
+Example Commands
+Command	Action
+Hello	Greets back
+What is artificial intelligence	Reads a Wikipedia summary
+Open YouTube	Opens YouTube in browser
+Remember to buy milk	Saves the note
+Show notes	Displays saved notes
+What’s the time	Reads the current time
+Exit or Stop listening	Pauses the chatbot
+Technologies Used
+• Python 3.x
+• Streamlit — Web-based UI framework
+• SpeechRecognition — For voice-to-text conversion
+• pyttsx3 — For text-to-speech output
+• Wikipedia API — To fetch definitions and summaries
+• Regex, Datetime, OS, Webbrowser — For logic and utility functions
+Future Enhancements
+• Add voice emotion detection for dynamic responses.
+• Integrate ChatGPT API for conversational AI.
+• Create personalized memory storage (SQLite-based).
+• Add multi-language support.
+• Deploy on Streamlit Cloud or Render.
+Author
+Venkata Varma Vatsavayi
+AI & Data Science Enthusiast | Passionate about Speech Interfaces and Automation
+
